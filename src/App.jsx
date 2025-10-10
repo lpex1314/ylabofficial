@@ -57,6 +57,7 @@ function App() {
 
   const navItems = [
     { id: 'home', label: 'Home' },
+    { id: 'gallery', label: 'Gallery' },
     { id: 'about', label: 'About' },
     { id: 'research', label: 'Research' },
     { id: 'initiatives', label: 'Initiatives' },
@@ -173,6 +174,83 @@ function App() {
                 Partner with Us
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery Section */}
+      <section id="gallery" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Y-Lab Forum 2025</h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+              Capturing moments from our recent forum - bringing together minds passionate about AI and wellbeing
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Photo 1 */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <img 
+                src="./pics/20250509forum/networking.JPG" 
+                alt="Y-Lab Forum 2025 - Event Photo 1"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="font-semibold">Networking Session</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Photo 2 */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <img 
+                src="./pics/20250509forum/speech.JPG" 
+                alt="Y-Lab Forum 2025 - Event Photo 2"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="font-semibold">Opening Speech</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Photo 3 */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <img 
+                src="./pics/20250509forum/discussion.JPG" 
+                alt="Y-Lab Forum 2025 - Event Photo 3"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="font-semibold">Panel Discussion</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Photo 4 */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <img 
+                src="./pics/20250509forum/career.JPG" 
+                alt="Y-Lab Forum 2025 - Event Photo 4"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="font-semibold">Career Corner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-lg text-gray-600">
+              Join us at our next event and be part of the conversation about AI and wellbeing
+            </p>
           </div>
         </div>
       </section>
