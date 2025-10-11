@@ -185,7 +185,7 @@ function App() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Y-Lab Forum 2025</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto">
-              Capturing moments from our recent forum - bringing together minds passionate about AI and wellbeing
+              Capturing moments from our recent forum - bringing together minds passionate about AI and healthcare
             </p>
           </div>
 
