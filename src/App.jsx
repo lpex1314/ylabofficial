@@ -151,7 +151,7 @@ function App() {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto">
-              Y-Lab is a student-led innovation lab at University College London exploring how artificial intelligence can enhance human health, emotion, and wellbeing.
+              Y-Lab is a student-led innovation lab exploring how artificial intelligence can enhance human health, emotion, and wellbeing.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -249,7 +249,7 @@ function App() {
 
           <div className="text-center mt-12">
             <p className="text-lg text-gray-600">
-              Join us at our next event and be part of the conversation about AI and wellbeing
+              Join us at our next event and be part of the conversation about AI and wellbeing!
             </p>
           </div>
         </div>
@@ -290,7 +290,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
               <p className="text-gray-700 leading-relaxed">
-                Founded at University College London, Y-Lab began as a student initiative to explore how technology can serve emotional and mental wellbeing.
+                Y-Lab began as a student initiative to explore how technology can serve emotional and mental wellbeing.
               </p>
             </div>
           </div>
@@ -406,7 +406,7 @@ function App() {
                   <FaGraduationCap className="text-3xl text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3">AI4Health Forum @ UCL</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">AI4Health Forum</h3>
                   <p className="text-gray-700 leading-relaxed">
                     Exploring innovation and digital transformation in healthcare. A collaborative platform where students, researchers, and healthcare professionals share insights and shape the future of health technology.
                   </p>
@@ -501,7 +501,7 @@ function App() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Supported by:</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  UCL Faculty of Population Health Sciences, leading academics, and international partners who share our vision for a healthier, smarter world.
+                  Leading academics, entrepreneurs and international partners who share our vision for a healthier, smarter world.
                 </p>
               </div>
             </div>
@@ -543,7 +543,7 @@ function App() {
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                With this belief, during my first year at UCL, I co-founded Y-Lab together with <span className="font-semibold">Peixuan Li, Gege Huang, Yumei Cai, and Yang Zhang</span> — a student-led interdisciplinary platform focused on <span className="gradient-text font-semibold">AI × Health × Youth Innovation</span>.
+                With this belief, during my first year, I co-founded Y-Lab together with <span className="font-semibold">Peixuan Li, Gege Huang, Yumei Cai, and Yang Zhang</span> — a student-led interdisciplinary platform focused on <span className="gradient-text font-semibold">AI × Health × Youth Innovation</span>.
               </p>
 
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl mb-6">
@@ -580,15 +580,6 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <FaMapMarkerAlt className="text-2xl text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">Location</h3>
-                  <p className="text-gray-700">University College London</p>
-                </div>
-              </div>
 
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -651,7 +642,7 @@ function App() {
               <span className="font-bold text-xl">Y-Lab</span>
             </div>
             <p className="text-gray-400 mb-2">
-              A student-led research and innovation initiative at University College London
+              A student-led research and innovation initiative at London
             </p>
             <p className="text-gray-500 text-sm">
               © Y-Lab 2025. All rights reserved.
